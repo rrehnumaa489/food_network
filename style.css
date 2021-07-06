@@ -1,0 +1,138 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.header-section{
+    display: flex;
+}
+.header{
+    width: 40%;
+    padding-left: 5%;
+}
+.heading{
+    color: #575757;
+    font-size: 50px;
+    padding-top: 30%;
+    
+}
+.heading span{
+    color: #E78745;
+}
+.tag-line{
+    font-size: 15px;
+    color: #838383;
+    padding-bottom: 30px;
+}
+.btn{
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 12px 22px;
+
+}
+.about-section{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.img2{
+    width: 50%;
+    padding-left: 10%;
+}
+.img{
+    height: 400px;
+    width: 250px;
+}
+.abt-head{
+    padding-top: 50px;
+    color: #575757;
+    font-size: 30px;
+}
+.abt-tag{
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 30px;
+    color: #575757;
+}
+.rcp-head{
+    padding-top: 50px;
+    text-align: center;
+    color: #838383;
+    font-size: 30px;
+}
+.rcp-tag{
+    font-size: 14px;
+    color: #575757;
+    line-height: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.rcp-container{
+    display: flex;
+}
+.rcp-img{
+    height: 200px;
+    width: 300px;
+}
+.rcp-container{
+    margin: 0 5%;
+}
+.main-rcp{
+    width: 25%;
+    padding: 2%;
+    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.41);
+    border-radius: 10px;
+    margin: 2.5%;
+}
+.rcp-title{
+    font-size: 25px;
+}
+.photo-tag{
+    font-size: 13.5px;
+    color: #575757;
+    line-height: 25px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.social-part{
+    display: flex;
+    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.41);
+    padding: 2% 7%;
+    border-radius: 10px;
+    margin: 7%;
+}
+.social-item{
+    width: 25%;
+    padding-left: 9%;
+}
+.social-head{
+    font-size: 30px;
+}
+.social-tag{
+    color: #575757;
+    font-size: 13px;
+}
+.footer-section{
+    background-color: #0B0D17;
+}
+.footer-head{
+    padding-top: 3%;
+    text-align: center;
+    color: #5B5B5B;
+    word-spacing: 5px;
+}
+.footer-head span{
+    color: #E78745;
+}
+.footer-tag{
+    font-size: 13px;
+    color: #D4D5D6;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    word-spacing: 2px;
+    
+}
